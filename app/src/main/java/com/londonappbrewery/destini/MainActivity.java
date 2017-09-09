@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
-    // TODO: Steps 4 & 8 - Declare member variables here:
+    //  member variables here:
     TextView mStoryTextView;
     Button mButtonTop;
     Button mButtonBottom;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mButtonBottom = (Button) findViewById(R.id.buttonBottom);
 
 
-        // TODO: Steps 6, 7, & 9 - Set a listener on the top button:
+        // listener on the top button:
         mButtonTop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // TODO: Steps 6, 7, & 9 - Set a listener on the bottom button:
+        // listener on the bottom button:
         mButtonBottom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
